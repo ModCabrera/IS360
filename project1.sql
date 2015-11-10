@@ -1,0 +1,15 @@
+CREATE TABLE airlines (
+faa VARCHAR(6) NOT NULL,
+airline_name VARCHAR(4) DEFAULT NULL,
+PRIMARY KEY (faa)
+);
+
+CREATE TABLE flights (
+faa VARCHAR(6) NOT NULL,
+ontime VARCHAR(4) DEFAULT NULL,
+delayed VARCHAR(4) DEFAULT NULL,
+PRIMARY KEY (faa)
+);
+
+
+SELECT * FROM airlines;
